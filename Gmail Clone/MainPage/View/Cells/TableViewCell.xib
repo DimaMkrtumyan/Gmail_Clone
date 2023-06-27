@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Bold.ttf">
+            <string>OpenSans-Bold</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="Gmail_Clone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile1" translatesAutoresizingMaskIntoConstraints="NO" id="7ph-sb-MAn">
+                        <rect key="frame" x="0.0" y="0.0" width="37" height="37"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stephanie Everhill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRI-8G-SYM">
+                        <rect key="frame" x="54" y="3" width="145" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="145" id="aRm-KI-YcG"/>
+                            <constraint firstAttribute="height" constant="22" id="i8g-Jl-qFO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:14 pm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdQ-Uj-ZSh">
+                        <rect key="frame" x="299" y="6" width="53" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="7dj-G2-IKq"/>
+                            <constraint firstAttribute="width" constant="53" id="gBQ-06-beE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When do we meet again?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLf-0x-jCz">
+                        <rect key="frame" x="54" y="26" width="156" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="23x-Lr-WUf"/>
+                            <constraint firstAttribute="width" constant="156" id="th3-cF-OHI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I would meet at the Western Mall if you.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoF-XA-hoD">
+                        <rect key="frame" x="54" y="43" width="249" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="P5B-Tj-c1K"/>
+                            <constraint firstAttribute="width" constant="249" id="QXx-Sf-d90"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <color key="textColor" systemColor="systemGrayColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMA-ZL-E9z">
+                        <rect key="frame" x="334" y="42" width="17" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="IwD-KF-di9"/>
+                            <constraint firstAttribute="height" constant="16" id="RSK-Xt-1Yw"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="VectorStarIconUnFilled"/>
+                        <connections>
+                            <action selector="favoriteBtnTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sqO-PN-VEc"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vRI-8G-SYM" firstAttribute="leading" secondItem="7ph-sb-MAn" secondAttribute="trailing" constant="17" id="1kH-vY-p9p"/>
+                    <constraint firstAttribute="trailing" secondItem="iMA-ZL-E9z" secondAttribute="trailing" constant="1" id="39W-73-l1W"/>
+                    <constraint firstItem="vdQ-Uj-ZSh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="Cjb-aH-rvn"/>
+                    <constraint firstItem="BoF-XA-hoD" firstAttribute="top" secondItem="hLf-0x-jCz" secondAttribute="bottom" constant="1" id="OxC-18-j9T"/>
+                    <constraint firstAttribute="bottom" secondItem="iMA-ZL-E9z" secondAttribute="bottom" constant="1" id="PVH-8A-yeu"/>
+                    <constraint firstItem="7ph-sb-MAn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UH6-Y1-79Z"/>
+                    <constraint firstItem="BoF-XA-hoD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="54" id="Xkg-Tm-yfC"/>
+                    <constraint firstItem="hLf-0x-jCz" firstAttribute="leading" secondItem="7ph-sb-MAn" secondAttribute="trailing" constant="17" id="ZZz-ll-9VR"/>
+                    <constraint firstAttribute="bottom" secondItem="BoF-XA-hoD" secondAttribute="bottom" id="gM8-09-lUT"/>
+                    <constraint firstAttribute="trailing" secondItem="vdQ-Uj-ZSh" secondAttribute="trailing" id="hAH-xZ-7Y6"/>
+                    <constraint firstItem="7ph-sb-MAn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lkQ-1i-nuQ"/>
+                    <constraint firstItem="vRI-8G-SYM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="uMR-96-XTz"/>
+                    <constraint firstItem="hLf-0x-jCz" firstAttribute="top" secondItem="vRI-8G-SYM" secondAttribute="bottom" constant="1" id="zCA-dX-8Dk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="date" destination="vdQ-Uj-ZSh" id="91o-Cc-z15"/>
+                <outlet property="favoriteIcon" destination="iMA-ZL-E9z" id="Zp1-tl-fqM"/>
+                <outlet property="fullname" destination="vRI-8G-SYM" id="nOL-wI-QZU"/>
+                <outlet property="message" destination="BoF-XA-hoD" id="ECK-gb-xkB"/>
+                <outlet property="profileIcon" destination="7ph-sb-MAn" id="yAy-FG-Lxl"/>
+                <outlet property="subject" destination="hLf-0x-jCz" id="HeR-8t-fMF"/>
+            </connections>
+            <point key="canvasLocation" x="129.7709923664122" y="-11.619718309859156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Profile1" width="37" height="37"/>
+        <image name="VectorStarIconUnFilled" width="19" height="18"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
